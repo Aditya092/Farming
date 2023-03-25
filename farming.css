@@ -1,0 +1,45 @@
+/* Apply a background color to the body */
+body {
+    background-color: blue;
+}
+  
+  /* Center the rows and add some spacing between them */
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .row + .row {
+    margin-top: 20px;
+  }
+  
+  /* Style the buttons */
+  button {
+    background-color: #3a3a3a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #262626;
+  }
+  
+  /* Style the headings */
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Apply a white background and some padding to the buttons on hover */
+  button:hover {
+    background-color: white;
+    color: #3a3a3a;
+  }
